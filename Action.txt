@@ -1,0 +1,47 @@
+S->Q
+Q->KQ'
+Q->MQ'
+Q->NQ'
+Q->OQ'
+Q->PQ'
+Q'->Q
+Q'->@
+A->BA' %ADD_SUB
+A'->+A %ADD
+A'->-A %SUB
+A'->@
+B->CB' %MUL_DIV
+B'->*B %MUL
+B'->/B %DIV
+B'->@
+C->(A) %TRAN_AC
+C->%ASS_C i
+C->%ASS_C n
+K->F:=Z%EQ;
+F->%ASS_F i
+F->%ASS_F n
+Z->A
+L->[GR] %COMP
+R-><G %COMP_L
+R->>G %COMP_G
+R-><=G %COMP_LE
+R->>=G %COMP_GE
+R->=G %COMP_E
+R->!=G %COMP_NE
+G->A
+M->intH%INT;
+M->doubleH%DOUBLE;
+H->%ASS_H i
+N->repeat%REIuntilT%RE_BACKPATCH;
+T->L
+I->Q
+O->ifJ%IF_FJthenU%IF_FJ_BACKPATCH%IF_RJelseQ%IF_RJ_BACKPATCHendif;
+J->L
+U->Q
+P->read(X);
+P->print(X);
+X->YX'
+X'->,YX'
+X'->@
+Y->i
+

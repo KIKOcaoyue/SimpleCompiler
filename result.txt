@@ -1,0 +1,1299 @@
+S的FIRST集合为:
+double#i#if#int#n#print#read#repeat#
+Q的FIRST集合为:
+double#i#if#int#n#print#read#repeat#
+Q'的FIRST集合为:
+@#double#i#if#int#n#print#read#repeat#
+A的FIRST集合为:
+(#i#n#
+A'的FIRST集合为:
++#-#@#
+B的FIRST集合为:
+(#i#n#
+B'的FIRST集合为:
+*#/#@#
+C的FIRST集合为:
+(#i#n#
+K的FIRST集合为:
+i#n#
+F的FIRST集合为:
+i#n#
+Z的FIRST集合为:
+(#i#n#
+L的FIRST集合为:
+[#
+R的FIRST集合为:
+!=#<#<=#=#>#>=#
+G的FIRST集合为:
+(#i#n#
+M的FIRST集合为:
+double#int#
+H的FIRST集合为:
+i#
+N的FIRST集合为:
+repeat#
+T的FIRST集合为:
+[#
+I的FIRST集合为:
+double#i#if#int#n#print#read#repeat#
+O的FIRST集合为:
+if#
+J的FIRST集合为:
+[#
+U的FIRST集合为:
+double#i#if#int#n#print#read#repeat#
+P的FIRST集合为:
+print#read#
+X的FIRST集合为:
+i#
+X'的FIRST集合为:
+,#@#
+Y的FIRST集合为:
+i#
+S的FOLLOW集合为:
+$#
+Q的FOLLOW集合为:
+$#else#endif#until#
+Q'的FOLLOW集合为:
+$#else#endif#until#
+A的FOLLOW集合为:
+!=#)#;#<#<=#=#>#>=#]#
+A'的FOLLOW集合为:
+!=#)#;#<#<=#=#>#>=#]#
+B的FOLLOW集合为:
+!=#)#+#-#;#<#<=#=#>#>=#]#
+B'的FOLLOW集合为:
+!=#)#+#-#;#<#<=#=#>#>=#]#
+C的FOLLOW集合为:
+!=#)#*#+#-#/#;#<#<=#=#>#>=#]#
+K的FOLLOW集合为:
+$#double#else#endif#i#if#int#n#print#read#repeat#until#
+F的FOLLOW集合为:
+:=#
+Z的FOLLOW集合为:
+;#
+L的FOLLOW集合为:
+;#then#
+R的FOLLOW集合为:
+]#
+G的FOLLOW集合为:
+!=#<#<=#=#>#>=#]#
+M的FOLLOW集合为:
+$#double#else#endif#i#if#int#n#print#read#repeat#until#
+H的FOLLOW集合为:
+;#
+N的FOLLOW集合为:
+$#double#else#endif#i#if#int#n#print#read#repeat#until#
+T的FOLLOW集合为:
+;#
+I的FOLLOW集合为:
+until#
+O的FOLLOW集合为:
+$#double#else#endif#i#if#int#n#print#read#repeat#until#
+J的FOLLOW集合为:
+then#
+U的FOLLOW集合为:
+else#
+P的FOLLOW集合为:
+$#double#else#endif#i#if#int#n#print#read#repeat#until#
+X的FOLLOW集合为:
+)#
+X'的FOLLOW集合为:
+)#
+Y的FOLLOW集合为:
+)#,#
+现在是:S->Q
+改变后:S->Q
+右边是:Q 
+现在是:Q->MQ'
+改变后:Q->MQ'
+右边是:M Q' 
+现在是:M->intH;
+改变后:M->intH;
+右边是:int H ; 
+现在是:H->i
+改变后:H->i
+右边是:i 
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->KQ'
+改变后:Q->KQ'
+右边是:K Q' 
+现在是:K->F:=Zeq;
+改变后:K->F:=Zeq;
+右边是:F := Z eq ; 
+现在是:F->assf i
+改变后:F->assf i
+右边是:assf i 
+这个东西是动作: assf
+动作: assf  输入流: a
+现在是:Z->A
+改变后:Z->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc n
+改变后:C->assc n
+右边是:assc n 
+这个东西是动作: assc
+动作: assc  输入流: 0
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ;
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: eq
+动作: eq  输入流: ;
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->MQ'
+改变后:Q->MQ'
+右边是:M Q' 
+现在是:M->intH;
+改变后:M->intH;
+右边是:int H ; 
+现在是:H->i
+改变后:H->i
+右边是:i 
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->KQ'
+改变后:Q->KQ'
+右边是:K Q' 
+现在是:K->F:=Zeq;
+改变后:K->F:=Zeq;
+右边是:F := Z eq ; 
+现在是:F->assf i
+改变后:F->assf i
+右边是:assf i 
+这个东西是动作: assf
+动作: assf  输入流: b
+现在是:Z->A
+改变后:Z->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc n
+改变后:C->assc n
+右边是:assc n 
+这个东西是动作: assc
+动作: assc  输入流: 1
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ;
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: eq
+动作: eq  输入流: ;
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->MQ'
+改变后:Q->MQ'
+右边是:M Q' 
+现在是:M->intH;
+改变后:M->intH;
+右边是:int H ; 
+现在是:H->i
+改变后:H->i
+右边是:i 
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->KQ'
+改变后:Q->KQ'
+右边是:K Q' 
+现在是:K->F:=Zeq;
+改变后:K->F:=Zeq;
+右边是:F := Z eq ; 
+现在是:F->assf i
+改变后:F->assf i
+右边是:assf i 
+这个东西是动作: assf
+动作: assf  输入流: c
+现在是:Z->A
+改变后:Z->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc n
+改变后:C->assc n
+右边是:assc n 
+这个东西是动作: assc
+动作: assc  输入流: 0
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ;
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: eq
+动作: eq  输入流: ;
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->MQ'
+改变后:Q->MQ'
+右边是:M Q' 
+现在是:M->intH;
+改变后:M->intH;
+右边是:int H ; 
+现在是:H->i
+改变后:H->i
+右边是:i 
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->KQ'
+改变后:Q->KQ'
+右边是:K Q' 
+现在是:K->F:=Zeq;
+改变后:K->F:=Zeq;
+右边是:F := Z eq ; 
+现在是:F->assf i
+改变后:F->assf i
+右边是:assf i 
+这个东西是动作: assf
+动作: assf  输入流: i
+现在是:Z->A
+改变后:Z->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc n
+改变后:C->assc n
+右边是:assc n 
+这个东西是动作: assc
+动作: assc  输入流: 2
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ;
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: eq
+动作: eq  输入流: ;
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->NQ'
+改变后:Q->NQ'
+右边是:N Q' 
+现在是:N->repeat reIuntilTrebackpatch;
+改变后:N->repeat reIuntilTrebackpatch;
+右边是:repeat re I until T rebackpatch ; 
+这个东西是动作: re
+动作: re  输入流: c
+现在是:I->Q
+改变后:I->Q
+右边是:Q 
+现在是:Q->KQ'
+改变后:Q->KQ'
+右边是:K Q' 
+现在是:K->F:=Zeq;
+改变后:K->F:=Zeq;
+右边是:F := Z eq ; 
+现在是:F->assf i
+改变后:F->assf i
+右边是:assf i 
+这个东西是动作: assf
+动作: assf  输入流: c
+现在是:Z->A
+改变后:Z->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: a
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: +
+现在是:A'->+Aadd
+改变后:A'->+Aadd
+右边是:+ A add 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: b
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ;
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: add
+动作: add  输入流: ;
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: eq
+动作: eq  输入流: ;
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->KQ'
+改变后:Q->KQ'
+右边是:K Q' 
+现在是:K->F:=Zeq;
+改变后:K->F:=Zeq;
+右边是:F := Z eq ; 
+现在是:F->assf i
+改变后:F->assf i
+右边是:assf i 
+这个东西是动作: assf
+动作: assf  输入流: a
+现在是:Z->A
+改变后:Z->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: b
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ;
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: eq
+动作: eq  输入流: ;
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->KQ'
+改变后:Q->KQ'
+右边是:K Q' 
+现在是:K->F:=Zeq;
+改变后:K->F:=Zeq;
+右边是:F := Z eq ; 
+现在是:F->assf i
+改变后:F->assf i
+右边是:assf i 
+这个东西是动作: assf
+动作: assf  输入流: b
+现在是:Z->A
+改变后:Z->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: c
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ;
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: eq
+动作: eq  输入流: ;
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->KQ'
+改变后:Q->KQ'
+右边是:K Q' 
+现在是:K->F:=Zeq;
+改变后:K->F:=Zeq;
+右边是:F := Z eq ; 
+现在是:F->assf i
+改变后:F->assf i
+右边是:assf i 
+这个东西是动作: assf
+动作: assf  输入流: i
+现在是:Z->A
+改变后:Z->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: i
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: +
+现在是:A'->+Aadd
+改变后:A'->+Aadd
+右边是:+ A add 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc n
+改变后:C->assc n
+右边是:assc n 
+这个东西是动作: assc
+动作: assc  输入流: 1
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ;
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: add
+动作: add  输入流: ;
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: eq
+动作: eq  输入流: ;
+现在是:Q'->@
+改变后:Q'->@
+右边是:@ 
+现在是:T->L
+改变后:T->L
+右边是:L 
+现在是:L->[GR]comp
+改变后:L->[GR]comp
+右边是:[ G R ] comp 
+现在是:G->A
+改变后:G->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: i
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: >
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: >
+现在是:R->>Gcompg
+改变后:R->>Gcompg
+右边是:> G compg 
+现在是:G->A
+改变后:G->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: n
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ]
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ]
+这个东西是动作: compg
+动作: compg  输入流: ]
+这个东西是动作: comp
+动作: comp  输入流: ;
+这个东西是动作: rebackpatch
+动作: rebackpatch  输入流: ;
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->OQ'
+改变后:Q->OQ'
+右边是:O Q' 
+现在是:O->ifJiffj thenUiffjbackpatch ifrj elseQifrjbackpatch endif;
+改变后:O->ifJiffj thenUiffjbackpatch ifrj elseQifrjbackpatch endif;
+右边是:if J iffj then U iffjbackpatch ifrj else Q ifrjbackpatch endif ; 
+现在是:J->L
+改变后:J->L
+右边是:L 
+现在是:L->[GR]comp
+改变后:L->[GR]comp
+右边是:[ G R ] comp 
+现在是:G->A
+改变后:G->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: c
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: >
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: >
+现在是:R->>Gcompg
+改变后:R->>Gcompg
+右边是:> G compg 
+现在是:G->A
+改变后:G->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: a
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: +
+现在是:A'->+Aadd
+改变后:A'->+Aadd
+右边是:+ A add 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: b
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ]
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ]
+这个东西是动作: add
+动作: add  输入流: ]
+这个东西是动作: addsub
+动作: addsub  输入流: ]
+这个东西是动作: compg
+动作: compg  输入流: ]
+这个东西是动作: comp
+动作: comp  输入流: then
+这个东西是动作: iffj
+动作: iffj  输入流: then
+现在是:U->Q
+改变后:U->Q
+右边是:Q 
+现在是:Q->KQ'
+改变后:Q->KQ'
+右边是:K Q' 
+现在是:K->F:=Zeq;
+改变后:K->F:=Zeq;
+右边是:F := Z eq ; 
+现在是:F->assf i
+改变后:F->assf i
+右边是:assf i 
+这个东西是动作: assf
+动作: assf  输入流: c
+现在是:Z->A
+改变后:Z->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: c
+现在是:B'->*Bmul
+改变后:B'->*Bmul
+右边是:* B mul 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: c
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: +
+这个东西是动作: mul
+动作: mul  输入流: +
+这个东西是动作: muldiv
+动作: muldiv  输入流: +
+现在是:A'->+Aadd
+改变后:A'->+Aadd
+右边是:+ A add 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: c
+现在是:B'->/Bdiv
+改变后:B'->/Bdiv
+右边是:/ B div 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: c
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: -
+这个东西是动作: div
+动作: div  输入流: -
+这个东西是动作: muldiv
+动作: muldiv  输入流: -
+现在是:A'->-Asub
+改变后:A'->-Asub
+右边是:- A sub 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: c
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ;
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: sub
+动作: sub  输入流: ;
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: add
+动作: add  输入流: ;
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: eq
+动作: eq  输入流: ;
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->NQ'
+改变后:Q->NQ'
+右边是:N Q' 
+现在是:N->repeat reIuntilTrebackpatch;
+改变后:N->repeat reIuntilTrebackpatch;
+右边是:repeat re I until T rebackpatch ; 
+这个东西是动作: re
+动作: re  输入流: c
+现在是:I->Q
+改变后:I->Q
+右边是:Q 
+现在是:Q->KQ'
+改变后:Q->KQ'
+右边是:K Q' 
+现在是:K->F:=Zeq;
+改变后:K->F:=Zeq;
+右边是:F := Z eq ; 
+现在是:F->assf i
+改变后:F->assf i
+右边是:assf i 
+这个东西是动作: assf
+动作: assf  输入流: c
+现在是:Z->A
+改变后:Z->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: c
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: +
+现在是:A'->+Aadd
+改变后:A'->+Aadd
+右边是:+ A add 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc n
+改变后:C->assc n
+右边是:assc n 
+这个东西是动作: assc
+动作: assc  输入流: 1
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ;
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: add
+动作: add  输入流: ;
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: eq
+动作: eq  输入流: ;
+现在是:Q'->Q
+改变后:Q'->Q
+右边是:Q 
+现在是:Q->NQ'
+改变后:Q->NQ'
+右边是:N Q' 
+现在是:N->repeat reIuntilTrebackpatch;
+改变后:N->repeat reIuntilTrebackpatch;
+右边是:repeat re I until T rebackpatch ; 
+这个东西是动作: re
+动作: re  输入流: c
+现在是:I->Q
+改变后:I->Q
+右边是:Q 
+现在是:Q->KQ'
+改变后:Q->KQ'
+右边是:K Q' 
+现在是:K->F:=Zeq;
+改变后:K->F:=Zeq;
+右边是:F := Z eq ; 
+现在是:F->assf i
+改变后:F->assf i
+右边是:assf i 
+这个东西是动作: assf
+动作: assf  输入流: c
+现在是:Z->A
+改变后:Z->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: c
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: -
+现在是:A'->-Asub
+改变后:A'->-Asub
+右边是:- A sub 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc n
+改变后:C->assc n
+右边是:assc n 
+这个东西是动作: assc
+动作: assc  输入流: 1
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ;
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: sub
+动作: sub  输入流: ;
+这个东西是动作: addsub
+动作: addsub  输入流: ;
+这个东西是动作: eq
+动作: eq  输入流: ;
+现在是:Q'->@
+改变后:Q'->@
+右边是:@ 
+现在是:T->L
+改变后:T->L
+右边是:L 
+现在是:L->[GR]comp
+改变后:L->[GR]comp
+右边是:[ G R ] comp 
+现在是:G->A
+改变后:G->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: c
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: >=
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: >=
+现在是:R->>=Gcompge
+改变后:R->>=Gcompge
+右边是:>= G compge 
+现在是:G->A
+改变后:G->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->(A)tranac
+改变后:C->(A)tranac
+右边是:( A ) tranac 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: a
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: +
+现在是:A'->+Aadd
+改变后:A'->+Aadd
+右边是:+ A add 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: b
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: )
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: )
+这个东西是动作: add
+动作: add  输入流: )
+这个东西是动作: addsub
+动作: addsub  输入流: )
+这个东西是动作: tranac
+动作: tranac  输入流: /
+现在是:B'->/Bdiv
+改变后:B'->/Bdiv
+右边是:/ B div 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc n
+改变后:C->assc n
+右边是:assc n 
+这个东西是动作: assc
+动作: assc  输入流: 2
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ]
+这个东西是动作: div
+动作: div  输入流: ]
+这个东西是动作: muldiv
+动作: muldiv  输入流: ]
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ]
+这个东西是动作: compge
+动作: compge  输入流: ]
+这个东西是动作: comp
+动作: comp  输入流: ;
+这个东西是动作: rebackpatch
+动作: rebackpatch  输入流: ;
+现在是:Q'->@
+改变后:Q'->@
+右边是:@ 
+现在是:T->L
+改变后:T->L
+右边是:L 
+现在是:L->[GR]comp
+改变后:L->[GR]comp
+右边是:[ G R ] comp 
+现在是:G->A
+改变后:G->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: c
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: <=
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: <=
+现在是:R-><=Gcomple
+改变后:R-><=Gcomple
+右边是:<= G comple 
+现在是:G->A
+改变后:G->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->(A)tranac
+改变后:C->(A)tranac
+右边是:( A ) tranac 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: a
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: +
+现在是:A'->+Aadd
+改变后:A'->+Aadd
+右边是:+ A add 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: b
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: )
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: )
+这个东西是动作: add
+动作: add  输入流: )
+这个东西是动作: addsub
+动作: addsub  输入流: )
+这个东西是动作: tranac
+动作: tranac  输入流: /
+现在是:B'->/Bdiv
+改变后:B'->/Bdiv
+右边是:/ B div 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc n
+改变后:C->assc n
+右边是:assc n 
+这个东西是动作: assc
+动作: assc  输入流: 5
+现在是:B'->@
+改变后:B'->@
+右边是:@ 
+这个东西是动作: muldiv
+动作: muldiv  输入流: ]
+这个东西是动作: div
+动作: div  输入流: ]
+这个东西是动作: muldiv
+动作: muldiv  输入流: ]
+现在是:A'->@
+改变后:A'->@
+右边是:@ 
+这个东西是动作: addsub
+动作: addsub  输入流: ]
+这个东西是动作: comple
+动作: comple  输入流: ]
+这个东西是动作: comp
+动作: comp  输入流: ;
+这个东西是动作: rebackpatch
+动作: rebackpatch  输入流: ;
+现在是:Q'->@
+改变后:Q'->@
+右边是:@ 
+这个东西是动作: iffjbackpatch
+动作: iffjbackpatch  输入流: else
+这个东西是动作: ifrj
+动作: ifrj  输入流: else
+现在是:Q->OQ'
+改变后:Q->OQ'
+右边是:O Q' 
+现在是:O->ifJiffj thenUiffjbackpatch ifrj elseQifrjbackpatch endif;
+改变后:O->ifJiffj thenUiffjbackpatch ifrj elseQifrjbackpatch endif;
+右边是:if J iffj then U iffjbackpatch ifrj else Q ifrjbackpatch endif ; 
+现在是:J->L
+改变后:J->L
+右边是:L 
+现在是:L->[GR]comp
+改变后:L->[GR]comp
+右边是:[ G R ] comp 
+现在是:G->A
+改变后:G->A
+右边是:A 
+现在是:A->BA'addsub
+改变后:A->BA'addsub
+右边是:B A' addsub 
+现在是:B->CB'muldiv
+改变后:B->CB'muldiv
+右边是:C B' muldiv 
+现在是:C->assc i
+改变后:C->assc i
+右边是:assc i 
+这个东西是动作: assc
+动作: assc  输入流: c
+现在是:
+改变后:
+右边是:
+这个东西是动作: muldiv
+动作: muldiv  输入流: ID
+现在是:
+改变后:
+右边是:
+这个东西是动作: addsub
+动作: addsub  输入流: ID
+现在是:
+改变后:
+右边是:
+现在是:
+改变后:
+右边是:
+这个东西是动作: comp
+动作: comp  输入流: ID
+这个东西是动作: iffj
+动作: iffj  输入流: ID
+现在是:
+改变后:
+右边是:
+现在是:
+改变后:
+右边是:
+这个东西是动作: iffjbackpatch
+动作: iffjbackpatch  输入流: ID
+这个东西是动作: ifrj
+动作: ifrj  输入流: ID
+现在是:
+改变后:
+右边是:
+现在是:
+改变后:
+右边是:
+这个东西是动作: ifrjbackpatch
+动作: ifrjbackpatch  输入流: ID
+现在是:
+改变后:
+右边是:
+现在是:
+改变后:
+右边是:
+现在是:
+改变后:
+右边是:
+这个东西是动作: ifrjbackpatch
+动作: ifrjbackpatch  输入流: ID
+现在是:
+改变后:
+右边是:
+现在是:
+改变后:
+右边是:
+现在是:
+改变后:
+右边是:
+现在是:
+改变后:
+右边是:
+写的什么垃圾

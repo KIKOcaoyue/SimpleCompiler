@@ -1,0 +1,35 @@
+int a ; a := 0 ;
+int b ; b := 1 ;
+int c ; c := 0 ;
+int i ; i := 2 ;
+repeat
+	c := a + b ;
+	a := b ;
+	b := c ;
+	i := i + 1 ;
+until [ i > n ] ;
+if [ c > a + b ] then
+	c := c * c + c / c - c ;
+	repeat
+		c := c + 1 ;
+		repeat
+			c := c - 1 ;
+		until [ c >= ( a + b ) / 2 ] ;
+	until [ c <= ( a + b ) / 5 ] ;
+else
+	if [ c = a + b ] then
+		repeat                                                                
+			a := a + b ;
+			b := a + c ;
+		until [ c > a + b ] ;
+	else
+		repeat
+			a := a - b ;
+			b := a - c ;
+		until [ c >= ( a * b ) + a ] ;
+	endif ;
+	double ans ;
+	ans := 0.0 ;
+	ans := a * b /  ( c - 1 ) ;
+endif ;
+
